@@ -1,4 +1,4 @@
-package com.paweljablonski.snkrs.screens.feed
+package com.paweljablonski.snkrs.screens.home.feed
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
