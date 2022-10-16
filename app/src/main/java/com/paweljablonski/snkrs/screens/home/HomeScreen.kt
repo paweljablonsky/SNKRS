@@ -17,7 +17,7 @@ import androidx.navigation.NavController
 import com.paweljablonski.snkrs.R
 
 @Composable
-fun HomeScreen(navController: NavController) {
+fun Home(navController: NavController) {
     Column(
         modifier = Modifier
             .fillMaxSize()

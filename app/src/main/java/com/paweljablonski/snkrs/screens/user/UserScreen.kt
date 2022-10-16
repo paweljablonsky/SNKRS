@@ -17,7 +17,7 @@ import androidx.navigation.NavController
 import com.paweljablonski.snkrs.R
 
 @Composable
-fun UserScreen(navController: NavController) {
+fun User(navController: NavController) {
     Column(
         modifier = Modifier
             .fillMaxSize()

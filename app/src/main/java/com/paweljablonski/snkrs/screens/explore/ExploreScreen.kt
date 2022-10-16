@@ -17,7 +17,7 @@ import androidx.navigation.NavController
 import com.paweljablonski.snkrs.R
 
 @Composable
-fun ExploreScreen(navController: NavController) {
+fun Explore(navController: NavController) {
     Column(
         modifier = Modifier
             .fillMaxSize()

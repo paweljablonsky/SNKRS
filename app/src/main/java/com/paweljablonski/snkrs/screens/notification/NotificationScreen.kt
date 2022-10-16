@@ -17,7 +17,7 @@ import androidx.navigation.NavController
 import com.paweljablonski.snkrs.R
 
 @Composable
-fun NotificationsScreen(navController: NavController) {
+fun Notifications(navController: NavController) {
     Column(
         modifier = Modifier
             .fillMaxSize()

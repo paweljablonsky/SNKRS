@@ -7,8 +7,9 @@ sealed class BottomNavItem (
     var icon: Int,
     var route: String
         ){
-    object Home: BottomNavItem("Home", R.drawable.ic_launcher_background, "home")
-    object Explore: BottomNavItem("Explore", R.drawable.ic_launcher_background, "explore")
-    object Notifications: BottomNavItem("Notifications", R.drawable.ic_launcher_background, "notifications")
-    object UserProfile: BottomNavItem("User Profile", R.drawable.ic_launcher_background, "user_profile")
+    object Home: BottomNavItem("Home", R.drawable.ic_home, "home")
+    object Explore: BottomNavItem("Explore", R.drawable.ic_explore, "explore")
+    object Notifications: BottomNavItem("Notifications", R.drawable.ic_notification, "notifications")
+    object UserProfile: BottomNavItem("User Profile", R.drawable.ic_user_profile, "user_profile")
 }
+
